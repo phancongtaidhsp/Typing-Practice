@@ -1,0 +1,153 @@
+.page {
+	height: 50rem;
+	background: linear-gradient(180deg, rgba(92, 181, 219, 0.5) 0%, #0b85bb 100%);
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+}
+.page:after {
+	content: "";
+	background-color: #fff;
+	display: block;
+	width: 120%;
+	height: 200px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	bottom: -100px;
+	transform: rotate(-6deg);
+}
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.headerHome {
+	padding-top: 6.5rem;
+	color: #fff;
+}
+.headerHome .content h1 {
+	font-size: 3.5rem;
+	width: 47rem;
+}
+.headerHome .content ul {
+	margin-top: 3.2rem;
+	padding-inline-start: 0;
+	list-style: none;
+}
+.headerHome .content ul li {
+	font-size: 2rem;
+}
+.headerHome .content ul li svg {
+	font-size: 4rem;
+}
+.headerHome .content .iconContent {
+	width: 50rem;
+	height: 30rem;
+	left: 55%;
+	top: 45%;
+	position: absolute;
+	transform: rotate(-8deg);
+	background-image: url("../assets/img/ImgW.jpeg");
+	border-radius: 30px;
+}
+.headerHome .content button {
+	width: 16rem;
+	height: 4rem;
+	padding: 0 1rem;
+	font-size: 2rem;
+	border-radius: 15px;
+	margin-top: 1rem;
+	border-color: transparent;
+}
+.headerHome .content button svg {
+	font-size: 1rem;
+	margin-left: 10px;
+}
+.headerHome .content .btnST {
+	background-color: #ffcf46;
+	color: #806823;
+}
+.headerHome .content .btnTC {
+	background-color: transparent;
+	color: #fff;
+	border-color: #fff;
+	margin-left: 20px;
+}
+.subBodyHome {
+	color: #3295db;
+}
+.subBodyHome h1 {
+	width: 100%;
+	text-align: center;
+	margin: 4rem 0;
+}
+.subBodyHome .itemHome .image {
+	background-color: #f2f8fe;
+	height: 6rem;
+	border-radius: 1000px;
+	margin: 0 2rem;
+}
+.subBodyHome .itemHome .image svg {
+	font-size: 4rem;
+}
+.subBodyHome .itemHome p {
+	text-align: center;
+	margin-top: 1rem;
+}
+.adSignUp {
+	height: 310px;
+	width: 100%;
+	background-color: #4a4a4a;
+	color: #fff;
+}
+.adSignUp h1 {
+	padding-top: 5rem;
+}
+.adSignUp button {
+	padding: 15px 25px;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+	border-radius: 10px;
+	border-color: transparent;
+	color: #fff;
+}
+.adSignUp button svg {
+	font-size: 1rem;
+	margin-left: 10px;
+}
+.adSignUp .btnST {
+	background: #3295db;
+}
+.adSignUp .btnTC {
+	background-color: #71b16b;
+}
+.bottomHome {
+	height: 20rem;
+	background-image: url("../assets/img/key.png");
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.bottomHome ul {
+	margin-top: 2rem;
+}
+.bottomHome ul li {
+	display: inline;
+	padding: 0 1rem;
+	color: #4a4a4a;
+	border-left: 1px solid #4a4a4a;
+	text-decoration: underline;
+}
+.bottomHome ul li:first-child {
+	border-left: none;
+	text-decoration: none;
+}
+.bottomHome .contact {
+	margin-top: 1.5rem;
+	color: #4a4a4a;
+}
+.bottomHome .contact svg {
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
