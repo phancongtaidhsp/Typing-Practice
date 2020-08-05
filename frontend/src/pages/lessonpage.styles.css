@@ -1,0 +1,20 @@
+
+.directory {
+  width: 30%;
+  background-color: #3295db;
+  border-radius: 5px;
+  margin: 30px auto;
+  padding: 10px 0;
+}
+
+.directory h3 {
+  color: #fff;
+  font-size: 30px;
+  margin: 20px 0 20px 20px;
+}
+
+.rank_title {
+  text-align: center;
+  padding-right: 20px;
+  font-weight: bold;
+}
