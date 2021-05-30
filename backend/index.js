@@ -11,7 +11,7 @@ mongoose.connect(process.env.MONGO_URL, {
 });
 
 const userRoutes = require('./routes/user.route')
-const authRoutes = require('./routes/auth.route')
+const authRoutes = require('./rotutes/auth.route')
 const lessonRoutes = require('./routes/lesson.route')
 const scoreRoutes = require('./routes/score.route')
 
